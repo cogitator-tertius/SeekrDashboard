@@ -1,0 +1,53 @@
+Import applicant data
+Create applicant class with properties - subclass objects:individuals
+Identify viewport size and set layout
+Define sorting methods:
+	Id # - Key candidate
+	Name
+	Position
+	Experience
+	Application date
+	Experience Level
+	Availability
+		Checkboxes:
+			M
+			T
+			W
+			R
+			F
+			S
+			Su
+	Felony? optional
+	eligible to work? optional
+	
+	
+Saved applicant list
+
+Elements:
+	Text box - search
+	Scrollbar
+	Buttons:
+	Sort by drop down list
+		- Recent
+		- Experience level
+		- Faves first
+	Filter by:
+		- Availability - checklist
+		- Criminal record - checkbox
+		- Work eligibility - checkbox
+		- Experience (years) - #, radio(at least, at most, between)
+		- application date (range)
+		- saved seekers (heart icon)
+	Fave button
+	Burger Menu - slide menu from left
+		Account
+		- Saved seekers
+		- Clear seekers
+List:Applicants:view details
+Functions - sorting function with subtypes
+Ordering
+
+State: search box entry
+		filters
+		sort order selection
+		favorites
